@@ -177,8 +177,8 @@ user_id (16) + video_id(16) + text (300) = 332 bytes per comment
 --- | --- | --- | --- | --- | --- | --- 
 Nginx | 16 | 16 GB | - | - | - | 50
 Backend | 16 | 32 GB | - | - | - | 2
-PostgreSQL | 16 | 32 GB | SSD | 2 тб | 4 (RAID10) | 3 (1 master + 2 slaves)
-CDN | 16 | 16 GB | SSD | 2 TB | 4 (RAID10) | 200 (с запасом)
+PostgreSQL | 16 | 32 GB | SSD | 2 TB | 4 (RAID10) | 3 (1 master + 2 slaves)
+CDN | 16 | 32 GB | SSD | 16 TB | 4 (RAID10) | 200 (с запасом)
 Контент сервера | 16 | 16 GB | SSD | 16 TB | 4 (RAID10) | 8
 Холодное хранилище | 16 | 16 GB | HDD | 16 TB | 16 (RAID10) | 110 | 
 
